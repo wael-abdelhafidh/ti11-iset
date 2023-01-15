@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+      
+    
+
+        html, body {
+           margin-left: 150px;
+          
+            
+        }
+
+        #header {
+            height: 183px;
+            width: 962px;
+            background-image: url(header.png);
+        }
+        
+
+        #main {
+            
+            float: left;
+            width: 606px;
+            height: 800px;
+            margin: 10px;
+            
+        ;
+        }
+
+        #menupics {
+          float: left;
+          width: 206px;
+          height: 400px;
+          background-color: black;
+        }
+
+        #menu {
+            background: red;
+            float: left;
+            width: 206px;
+            height: 400px;
+            background-image: url(120x600.png);
+        }
+        .now {
+            display:inline;
+        }
+        .list2 {
+           margin-left: 90px;
+           position: relative;
+           bottom: 310px;
+          
+            
+        }
+       
+       
+
+        #pics {
+            background-image: url(120x600.png);
+            float: left;
+            width: 206px;
+            height: 150px;
+            
+
+        }
+        #pub {
+            
+            float: left;
+            width: 206px;
+            height: 230px;
+            background-image: url(120x600.png);
+
+            
+
+        }
+
+        #adverts {
+            
+            float: left;
+            width: 150px;
+            height: 800px;
+            text-align: center;
+            
+            
+            
+        }
+
+        #footer {
+            background: grey;
+            float: left;
+            width: 962px;
+            height: 200px;
+            position: relative;
+            background-image: url(green_cars.png);
+
+            
+        }
+        
+           
+        
+        .image2{
+            position: relative;
+            top:30px;
+        }
+        .list li{
+            position: relative;
+            right: 20px;
+          
+        }
+        .image0{
+            position: absolute;
+           margin-top: 10px;
+        }
+        .style{
+            list-style: url(carre.png)
+        }
+        .list4 ul {
+            color: aliceblue;
+            
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            left: 10px;
+            bottom: 30px;
+            
+            
+        }
+        .list4 li{
+            float: left;
+            margin: 10px;
+            
+        }
+        #input{
+            display: inline-block;
+           
+           
+            height: 350px;
+            width: 400px; 
+            background-image: url(pg_all.png);
+        }
+        .text{
+            color:white;
+            position: relative;
+            bottom: 50px;
+            left: 10px;
+            
+            
+           
+
+            
+        }
+        .text1 ul{
+            color:white;
+            float:left;
+            list-style: none;
+
+           
+           
+            
+
+        }
+        .text1 a{
+            color: white;
+            text-decoration: none;
+        }
+        .alltexts{
+            position: relative;
+            left: 250px;
+            bottom: 120px;
+           
+        }
+        .car1{
+           position: relative;
+           left: 150px;
+           display: inline-flex;
+        }
+        #titre{
+            color:white;
+            font-size:30px;
+        }
+        #myBrowser{
+            width: 350px;
+            margin: 10px;
+        }
+        #titre0{
+            font-size: 20px;
+            color:white;
+        }
+       #box{
+        position: relative;
+        left: 30px;
+        padding: 20px;
+       }
+       .checkbox{
+        position: relative;
+        top:30px
+       }
+      .img0{
+        position: relative;
+        
+      }
+      .car3{
+        float: right;
+        background-color: violet;
+        height: 150px;
+        width: 200px;
+      }
+      .cr33{
+        height: 30px;
+        width: 20px;
+      }
+      .rite{
+        background-color: aquamarine;
+        float: right;
+        position: relative;
+        bottom: 160px;
+        height: 198px;
+        width: 200px;
+        display: inline;
+      }
+      .left{
+        float: right;
+        background-color: aquamarine;
+        height: 250px;
+        width: 200px;
+        position: relative;
+        bottom: 50px;
+        display: inline;
+       
+      }
+      .chose-img{
+        height: 50px;
+        width: 50px;
+        
+        
+      }
+      .main-img img {
+        
+        display: inline;
+        height: 201px;
+        width: 327px;
+
+      }
+      .main-img {
+        display: inline;
+      }
+      .gallery{
+        display: inline-block;
+        height: 198px;
+        width: 50px;
+        cursor: pointer;
+        
+        position: relative;
+        top: 10px;
+        
+      }
+      .gallery li{
+        list-style: none;
+        
+
+      }
+      .gallery ul{
+        display: inline;
+      }
+      
+    
+
+    </style>
+    <script src="jquery.js" charset="utf-8"></script>
+
+</head>
+<body>
+
+<div id="header">
+    Header
+    
+</div>
+
+
+<div id="menupics">
+  <div id="menu">
+    <img src="charte.png">
+    
+    <div class="now">
+    <ul  style="list-style: url(fleche.png)"class="list">
+        <li>Alfa Romeov</li>
+          <li>  Audi </li>  
+          <li>BMW</li>
+          <li> Chrysler</li>
+          <li> Citroen</li>
+          <li> Dacia</li>
+          <li> Daewoo</li>
+          <li> Daihatsu</li>
+          <li> Fiat</li>
+          <li> Ford</li>
+          <li> Honda</li>
+          <li> Hyundai</li>
+          <li> Isuzu</li>
+          <li>  Kia</li>
+          <li> Lada</li>
+          <li>Lancia</li>
+            
+    </ul>
+    </div>
+    <div class="list2" >
+        <ul style="list-style: url(fleche.png) ">
+    <li> Mazda</li>
+            <li>Mercedes-Benz</li>
+                <li>Mg</li>
+                    <li>Mitsubishi</li>
+                        <li>Nissan</li>
+                            <li>Opel</li>
+                            <li>Peugeot</li>
+                            <li> Rover</li>
+                            <li> Saab</li>
+                            <li>  Seat</li>
+                            <li>Skoda</li>
+                            <li> Smart</li>
+                            <li>Subaru</li>
+                            <li> Suzuki</li>
+                            <li>Toyota</li>
+                            <li>Vdkswagen</li>
+                            <li>Volvo</li>
+                            </ul>
+    </div>
+  </div>
+  <div id="pub">
+    <img src="charte 3.png">
+    <ul class="style">
+        <li>Essai Tesla Roadster 2.5
+            8-01-2011</li>
+        <li>Racket a Marseille : La police
+            controle
+            8-01-2011</li>
+        <li>Ford lance une Focus electrique
+            et communicante
+            8-01-2011</li>
+        <li>Tesla S : une version Alpha qui
+            tient ses promesses
+            8-01-2011</li>
+        
+    </ul>
+  </div>
+  <div id="pics">
+    <img  class="image0"src="charte.png">
+    <img  class="image2 " src="mage.jpg">
+    
+  </div>
+  
+</div>
+
+<div id="main">
+   <pre> « Trouvez votre véhicule neuf ou occasion en essence ou diesel, écologique,
+sans permis ou de loisirs grâce à nos offres mises à jour quotidiennement»</pre>
+
+
+<span>
+    <div id="input">
+       <span id="titre"> Rechercher un vehicule</span><br>
+
+       
+<input list="browsers" id="myBrowser" name="myBrowser" /><br>
+<datalist  id="browsers">
+    
+  <option value="Chrome"></option>
+  <option value="Firefox"></option>
+  <option value="Internet Explorer"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+  <option value="Microsoft Edge"></option>
+</datalist>
+
+<input list="browsers" id="myBrowser" name="myBrowser" /><br>
+<datalist id="browsers"><br>
+  <option value="Chrome"></option>
+  <option value="Firefox"></option>
+  <option value="Internet Explorer"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+  <option value="Microsoft Edge"></option>
+</datalist>
+
+<input list="browsers" id="myBrowser" name="myBrowser" />
+<datalist id="browsers"><br>
+  <option value="Chrome"></option>
+  <option value="Firefox"></option>
+  <option value="Internet Explorer"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+  <option value="Microsoft Edge"></option>
+</datalist>
+</br>
+<div class="checkbox">
+    <label  id="titre0" for="checkbox">Carburant</label>
+    <span id="box">
+    <input id="box1" type="checkbox" value="c" /> C
+<input  id="box1" type="checkbox" name="chkSoftwareSkills" value="cpp"/> C++
+<input   id="box1" type="checkbox" name="chkSoftwareSkills" value="j"/>Javal
+
+</span>
+<div class="checkbox">
+<label  id="titre0" for="checkbox">Carburant</label>
+    <span id="box">
+    <input id="box1" type="checkbox" value="c" /> C
+<input  id="box1" type="checkbox" name="chkSoftwareSkills" value="cpp"/> C++
+<input   id="box1" type="checkbox" name="chkSoftwareSkills" value="j"/>Jav
+</div>
+        
+    </div>
+    
+      
+      
+
+
+        
+    </div>
+  
+</span>
+<div class="car3">
+    <div>
+
+<img  class="img0" src="presentation.png">
+<p>FullOccas' est un mandataire
+automobile européen multimarque
+basé à Lyonr en Rhône-Alpes.
+Depuis plus de 18 ans nous distribuons
+des véhicules toutes marques
+ans l'Europe entière.</p>
+</div>
+</div>
+<div>hghgvhjgjgjc,cg,jghjghjghjgh</div>
+<div class="main-img">
+<img src="charte00.png">
+</div>
+     <DIV CLASS="gallery">
+        <ul class="thumb">
+    <li><a href="0x0.jpg" ><img class="chose-img" src="0x0.jpg"></a></li>
+    <li><a href="voiture.jpg" ><img class="chose-img" src="voiture.jpg"></a></li>
+    <li><a href="jjslyagf8e3gcny2doyy.jpeg" ><img class="chose-img" src="jjslyagf8e3gcny2doyy.jpeg"></a></li>
+    <li><a href="charte00.png" ><img class="chose-img" src="charte00.png"></a></li>
+        </ul>
+
+    
+    
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.thumb a').click(function(e){
+            e.preventDefault();
+            $('.main-img img').attr("src", $(this).attr("href"));
+
+        })
+    })
+</script>
+
+ 
+
+
+<div class="left">
+    nnvnvbn
+</div>
+<div>hgfhgf</div>
+<div> 
+    
+    <img  class ="car33"src="red.png">
+    <img class="car30" src="000.png">
+    <div class="rite"> 
+        fghhg
+    </div>
+    
+</div>
+
+<div >
+
+
+</div>
+
+
+
+</div>
+
+<div id="adverts">
+    adverts
+    <img src="pub.png">
+    <img src="pub2.png" >
+
+</div>
+
+
+<div id="footer">
+    <div class="list4">
+        
+
+
+    <ul>
+        <li style="list-style:none display: inline"><h6>ACCUEIL</h6></li>
+
+        <li><h6>GARANTIE ET SERVICES</h6></li></h1>
+        <li> <h6>CGV</li>
+        <li><h6>NOUS RENDRE VISITE</h6></li>
+        <li><h6>COMMENT COMMANDER </h6></li>
+        <li><h6>    LASOCIETE</h6></li>
+        <li><h6> CONTACTS</h6></li>
+        <li><h6> FAQ </h6></li>
+        <li><h6>>NEWS</h6></li>
+        <li><h6>MENTIONS LEGALES</h6></li>
+    
+    </ul>
+</div >
+<div class="text">
+    <img class="a7a" src="footer_logo.png"><br>
+
+    
+    <span style="font-size: 20px;">04 72 79 76 26</span><br>
+254 Route de Grenoble</br>
+69800 St Priest<br>
+SAS au capital de 250 000 €<br>
+RCS Lyon -WA FR 74 727 844<br>
+<div class="alltexts">
+<div class="text1">
+    <ul>
+    <li><a href="#" >Roméo</a></li>
+    <li>BMW</li>
+    <li>Chrysler</li>
+    <li>Citroën</li>
+    <li>Dacia</li>
+    <li>Daihatsu</li>
+    <ul>
+</div>
+<div class="text1">
+    <ul>
+    <li><a href="#" >Fiat</a></li>
+    <li>Ford</li>
+    <li>Honda</li>
+    <li>Hyundai
+    </li>
+    <li>Isuzu</li>
+    <li>Kia</li>
+    <ul>
+
+</div>
+<div class="text1">
+    <ul>
+    <li><a href=#>Lancia</a></li>
+    <li><a href=#>Mazda</a></li>
+    <li><a href=#>Mercedes-Benz</a>
+    </li>
+    <li><a href=#>Mitsubishi</a>
+    </li>
+    <li><a href=#>Nissan
+        
+    </li>
+    <li><a href=#>Opel</a>
+        
+        
+    </li>
+    </ul>
+</div>
+</div>
+
+
+</body>
+
+         
+      
+    
+    
